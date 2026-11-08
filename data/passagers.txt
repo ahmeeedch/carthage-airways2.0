@@ -1,9 +1,0 @@
-07418529;Mejri;Rania;14/06/1991;F;Tunisienne;55123987;rania.mejri@gmail.com;1;640;0;-;00/00/0000
-13572468;Gharbi;Oussama;03/11/1984;H;Tunisienne;98456120;o.gharbi@topnet.tn;0;1720;0;-;00/00/0000
-24681357;Ben Ammar;Skander;22/02/2008;H;Française;27631408;skander.benammar@outlook.fr;1;90;0;-;00/00/0000
-31415926;Haddad;Yasmine;09/09/1967;F;Libyenne;71240355;y.haddad@yahoo.com;0;3150;0;-;00/00/0000
-52896314;Jlassi;Malek;30/04/1999;H;Tunisienne;24118790;malek.jlassi@gmail.com;0;210;1;Impayé - billet TU514;18/10/2026
-68023715;Chérif;Nour;17/12/1976;F;Algérienne;50987123;nour.cherif@gmail.com;1;1490;0;-;00/00/0000
-40917263;Trabelsi;Ines;05/01/2001;F;Tunisienne;29304471;ines.trabelsi@gmail.com;1;2480;0;-;00/00/0000
-85230961;Ouali;Karim;27/08/1958;H;Marocaine;92775014;karim.ouali@menara.ma;0;4020;0;-;00/00/0000
-19046382;Bouaziz;Lina;12/03/2013;F;Tunisienne;53610928;famille.bouaziz@gmail.com;0;40;0;-;00/00/0000
