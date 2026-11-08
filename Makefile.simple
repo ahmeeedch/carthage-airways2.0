@@ -1,0 +1,28 @@
+# Makefile.simple — compilation SANS autotools (plan B si ./autogen.sh pose problème)
+#
+#   make -f Makefile.simple          compile ./src/carthage
+#   make -f Makefile.simple clean
+#
+# Lancer ensuite depuis la racine :  ./reset_data.sh  puis  ./src/carthage
+
+CC      = gcc
+CFLAGS  = -Wall -g $(shell pkg-config --cflags gtk+-2.0)
+LIBS    = $(shell pkg-config --libs gtk+-2.0) -lm
+
+SRC = src/main.c src/support.c src/interface.c src/callbacks.c \
+      src/ui_theme.c src/ui_anim.c src/ui_shell.c \
+      src/connexion.c src/passager_admin.c src/passager_espace.c \
+      src/passager.c src/utils.c src/auth.c src/session.c
+
+OBJ = $(SRC:.c=.o)
+
+src/carthage: $(OBJ)
+	$(CC) -o $@ $(OBJ) $(LIBS)
+
+src/%.o: src/%.c src/*.h
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f src/*.o src/carthage
+
+.PHONY: clean
